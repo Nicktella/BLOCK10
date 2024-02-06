@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript" src="/___vscode_livepreview_injected_script"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Picasso Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="sun"></div>
+
+    <div class="grass"></div>
+    <style>
+        .item1 {
+            grid-area: header;
+        }
+
+        .item2 {
+            grid-area: menu;
+        }
+
+        .item3 {
+            grid-area: main;
+        }
+
+        .item4 {
+            grid-area: right;
+        }
+
+        .item5 {
+            grid-area: footer;
+        }
+
+
+        .grid-container {
+            display: flexbox;
+            gap: 20px;
+
+            padding: 60px;
+        }
+
+        .grid-container>div {
+            background-color: #e0e3fe;
+            text-align: center;
+            padding: 20px;
+            font-size: 20px;
+        }
+    </style>
+    </head>
+
+    <body class="art-project">
+        <header class="nav">
+            <h1><i>The Picasso Project</i></h1>
+            <div class="links">
+                <a href="./index.html">Home</a>
+                <a href="./grid.html">About</a>
+            </div>
+        </header>
+
+        <p>Welcome to my personal art portfolio! If you saw any pieces of mine that you wanted to know more about
+            <br>Please reach out by inputting some personal information below, and I will reach back out to you with
+            more <br>
+            information, thank you!
+        </p>
+
+        <div class="grid-container">
+            <h2>Contact Form</h2>
+            <div class="item2"><strong>
+                    <h3>Full Name</h1>
+                </strong>
+                <form action="./form-submitted.html">
+                    <input type="text" name="fname" id="fname" />
+
+                </form>
+
+                <label for="Gender">
+                    <h3>Gender</h3>
+                </label><br />
+                <article>
+
+                    <form>
+                        <input type="radio" id="Male" name="Gender" value="HTML" />
+                        <label for="html">Male</label><br />
+                        <input type="radio" id="Female" name="Gender" value="CSS" />
+                        <label for="css">Female</label><br />
+                        <input type="radio" id="Prefer not to say" name="Gender" value="JavaScript" />
+                        <label for="javascript">Prefer not to say</label>
+
+                    </form>
+                </article>
+
+
+            </div>
+            <div class="grid-container">
+                <div class="item3">
+                    <h3>Email Address:</h3>
+                    <input type="text" name="fname" id="fname" />
+                </div>
+                <div class="item4">
+                    <h3>Phone #:</h3>
+
+                    <article>
+
+                        <form action="./form-submitted.html">
+                            <input type="text" name="fname" id="fname" />
+                            <input type="submit" value="Submit" />
+                        </form>
+                    </article>
+                </div>
+
+                <footer>
+                    <h5>For any technical issues please call at (561)-305-5663</h5>
+                </footer>
+    </body>
+
+</html>

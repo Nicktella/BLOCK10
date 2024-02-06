@@ -1,0 +1,108 @@
+body {
+    background-image: url("../sky.jpg");
+}
+
+.sun {
+    background-image: url("../sun.jpg");
+    height: 330px;
+    width: 335px;
+    border-radius: 50%;
+
+    border-color: rgb(255, 145, 1);
+}
+
+p {
+    background-color: rgba(245, 201, 6, 0.555);
+}
+
+.grass {
+    background-image: url("../grass2.jpg");
+    height: 100px;
+    width: 100%;
+    border: 10px;
+    border: rgb(10, 122, 0) 5px;
+    border-style: groove;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.grid-container {}
+
+html,
+body {
+    margin: 0;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.art-project header {
+    padding: 0 20px;
+}
+
+.art-project footer,
+.hg-sidebar,
+.art-project-content {
+    padding: 20px;
+}
+
+.art-project header,
+.art-project footer {
+    background-color: #0c9613;
+}
+
+h2 {
+    border: 10px black;
+    border-style: double;
+    background-color: rgb(231, 255, 20);
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: double;
+    font-size: xx-large;
+    padding-left: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.art-project {
+    min-height: 100vh;
+}
+
+.art-project {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+
+
+.art-project-content {
+    flex: 1 1 auto;
+}
+
+.art-project-sidebar-1 {
+    order: -1;
+}
+
+@media (min-width: 768px) {
+    .art-project-body {
+        flex-direction: row;
+        background-color: orange;
+    }
+}
+
+@media (max-width: 768px) {
+    .art-project-body {
+        background-color: rgb(37, 34, 216);
+    }
+}
